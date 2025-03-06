@@ -9,8 +9,8 @@ public class Ex3 implements Runnable {
     }
 
     public static void main(String[] args) {
-        Thread thread = new Thread(new Ex3());
-        thread.start();
+        Thread myRunnable = new Thread(new Ex3());
+        myRunnable.start();
 
         for (int i = 1000; i > 0; i--) {
             System.out.println(i);
