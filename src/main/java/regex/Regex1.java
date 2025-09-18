@@ -1,0 +1,16 @@
+package regex;
+
+public class Regex1 {
+
+    public static void main(String[] args) {
+        String s = "Ivanov Vasiliy, Russia, Moscow, Lenin Street, 51, Flat 48, " +
+                "email: vivanov@mail.ru, Postcode: AA99, Phone Number: +123456789;"
+                + "Petrova Mariya, Ukraine, Kiyev, Lomonosov street, 33, flat 18," +
+                "email: masha@yandex.ru, Postcode: UKR54, Phone Number: +987654321;"
+                + "Chuck Norris, USA, Hollywood, All stars street, 87, flat 21," +
+                "email: chuck@gmail.com, Postcode: USA23, Phone Number: +136478952.";
+
+        System.out.println(s.contains("Moscow"));
+        System.out.println(s.indexOf("Moscow"));
+    }
+}
